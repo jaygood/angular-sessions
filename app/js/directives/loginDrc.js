@@ -1,5 +1,5 @@
 'use strict';
-app.directive('loginDirective',function(){
+angular.module('myApp').directive('loginDirective',function(){
 	return{
 		templateUrl:'partials/tpl/login.tpl.html'
 	}
